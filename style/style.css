@@ -1,0 +1,263 @@
+html {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+
+.ssl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ssl a {
+    margin: 1em 2em;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    width: 10%;
+}
+
+form {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    flex-wrap: nowrap;
+}
+
+.swiper-slide {
+    width: 17vw;
+    margin: 2%;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 80%;
+    height: 23vw;
+}
+
+.swiper-slide h3 {
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    border-radius: 5px 5px;
+    background: rgb(255, 255, 255, 0.7);
+    justify-content: center;
+    text-align: center;
+    margin-top: 5vw;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+
+footer .adr {
+    margin-left: 1%;
+}
+
+footer li,
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+footer .soc {
+    margin-left: 5%;
+    display: block;
+    flex-wrap: nowrap;
+}
+
+footer .soc a {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+footer h2 {
+    font-size: 1.2vw
+}
+
+footer p {
+    margin-bottom: 1vw;
+    font-size: 0.7vw;
+    margin-left: 1%;
+}
+
+.numi {
+    margin-left: 4vw;
+    width: 6vw;
+}
+
+footer img {
+    width: 10vw;
+}
+
+footer .kop {
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+.inf {
+    max-width: 80%;
+    margin: 0 10%;
+}
+
+
+.inf p {
+    font-size: 1vw;
+    margin: 1em 0;
+}
+
+.infs{
+    max-width: 80%;
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.infs img{
+    width: 15vw;
+    height: 20vw;
+}
+
+.iksweb{
+margin-left: 2em;
+}
+.iksweb td{
+    font-size: 2em;
+    
+}
+.imf2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inf3 {
+    text-align: left;
+    width: 20%;
+}
+
+.kart {
+    width: 50%;
+}
+
+.films_grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.film_card {
+    margin: 1em 5.5em;
+}
+
+.film_card img {
+   width: 15vw;
+   height: 21vw;
+}
+.film_card a{
+    text-decoration: none;
+    color: black;
+}
+.film_card:hover{
+scale: 1.15;
+transition: all 0.5s ease-in-out;
+border: black 1px solid;
+}
+
+.film_card::after{
+  transition: all 0.5s ease-in-out;
+
+    }
+.main button{
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0 1em;
+}
+.lih{
+    justify-content: center;
+    text-align: center;
+    margin: 0 10%;
+    max-width: 80%;
+}
+.myinf table{
+    font-size: 1em;
+width: 100%;
+justify-content: center;
+text-align: center;
+font-size: 1.5vw;
+
+}
+.myinf a{
+    text-align: center;
+    font-size: 1.5vw;
+}
+.korz table{
+    width: 100%;
+}
+.korz th{
+margin-right: 1vw;
+}
+.korz h2{
+    margin: 2vw 0;
+}
+form p{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+form input{
+    font-size: 1.vw;
+    margin: 0.3vw;
+    padding: 0.3vw;
+}
+
+form select{
+    font-size: 1vw;
+padding: 0.3vw;
+margin: 0.3vw;
+}
+form option{
+    font-size: 1vw;
+}
+form button{
+
+    font-size: 1vw;
+    padding: 0.3vw;
+}
+
+.log{
+    display: block;
+    flex-wrap: nowrap;
+}
+.log form{
+    display: block;
+    flex-wrap: nowrap;
+}

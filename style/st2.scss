@@ -1,0 +1,46 @@
+.inner {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.cnt {
+    margin-bottom: 60px;
+    .inner {
+        padding: 80px 30px;
+        background: #ffffff;
+        border-radius: 25px;
+    }
+    .lead {
+        font-size: 16px;
+        color: #ffbec2;
+        margin-bottom: 20px;
+    }
+}
+
+.slider {
+    .swiper {
+        overflow: hidden;
+        .swiper-slide {
+            width: 200px !important;
+            margin: 0 10px!important;
+        }
+        .swiper-wrapper {
+            -webkit-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+        }
+        .swiper-slide {
+            -webkit-transition: -webkit-transform 0.6s;
+            transition: -webkit-transform 0.6s;
+            transition: transform 0.6s;
+            transition: transform 0.6s, -webkit-transform 0.6s;
+        }
+        .swiper-pagination-bullet {
+            opacity: 1;
+            background: #ffffff;
+        }
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: #5d91a4;
+        }
+    }
+}
